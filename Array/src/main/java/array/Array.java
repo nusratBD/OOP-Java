@@ -40,5 +40,22 @@ public class Array {
 //        System.out.println(s2.pop());
 //        System.out.println(s2.pop());
 //        System.out.println(s2.pop());
+          Stack3 s3=new Stack3(5);
+          Stack3 s4=new Stack3(8);
+          for(int i=0; i<5; i++){
+          s3.push(i);
+          }
+          System.out.println("--------------------------");
+          for(int i=0; i<5; i++){
+          s3.pop();
+          }
+          System.out.println("-------------------------");
+          for(int i=0; i<8; i++){
+          s4.push(i);
+          }
+          System.out.println("-----------------------");
+          for(int i=0; i<8; i++){
+          s4.pop();
+          }
     }
 }
