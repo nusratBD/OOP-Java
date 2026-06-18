@@ -17,8 +17,4 @@ public class A {
     static {
         c = a * 3;
     }
-
-//    public static void main(String args[]) {
-//        display();
-//    }
 }

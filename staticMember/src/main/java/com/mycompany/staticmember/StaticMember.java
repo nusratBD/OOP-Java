@@ -7,7 +7,7 @@ public class StaticMember {
         //System.out.println(A.b); Not Possible
         System.out.println(A.c);
 //--------------Static Method Access---------------
-        //A.display();
+        A.display();
         
     }
 }
