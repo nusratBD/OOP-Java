@@ -15,4 +15,7 @@ public class Inheritance_Super2 {
         System.out.println("Name: "+name);
         System.out.println("Salary: "+salary);
     }
+    void work(){
+        System.out.println("Worker is Working.");
+    }
 }

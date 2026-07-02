@@ -12,5 +12,11 @@ public class Inheritance_Super2_Child extends Inheritance_Super2 {
     void worker_display() {
         display();
         System.out.println("Department: "+department);
+        work();
+        super.work();
+    }
+    @Override
+    void work(){
+        System.out.println("Manager is Managing.");
     }
 }

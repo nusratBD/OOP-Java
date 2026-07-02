@@ -51,8 +51,19 @@ public class Lab2_Prep {
 //-------------------Use of Super-------------------
 //Inheritance_Super_Child isc=new Inheritance_Super_Child("Nusrat",750000,"Software Depelopment");
 //isc.displayDetail();
-Inheritance_Super2 s2=new Inheritance_Super2("Nusrat", 750000);
-Inheritance_Super2_Child sc2=new Inheritance_Super2_Child(s2,"AI Department");
-sc2.worker_display();
+//Inheritance_Super2 s2=new Inheritance_Super2("Nusrat", 750000);
+//Inheritance_Super2_Child sc2=new Inheritance_Super2_Child(s2,"AI Department");
+//sc2.worker_display();
+//------------------Method Overridng-----------------
+Overriding o=new Overriding();
+//Overriding_Child oc=new Overriding_Child();
+//Overriding_Child2 oc2=new Overriding_Child2();
+//o.makeSound();
+//oc.makeSound();
+//oc2.makeSound();
+//o=new Overriding_Child();
+//o.makeSound();
+//o=new Overriding_Child2();
+//o.makeSound();
     }
 }
