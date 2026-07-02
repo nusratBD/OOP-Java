@@ -32,10 +32,15 @@ public class Lab2_Prep {
 //        s.pop();
 //        s.display();
 //--------------------Method Overloading----------------
-        Method_Overloading mo = new Method_Overloading();
-        System.out.println(mo.calculate(1, 2));
-        System.out.println(mo.calculate(5, 3));
-        System.out.println(mo.calculate(1, 2, 3));
-        System.out.println(mo.calculate(5, 3.5));
+//        Method_Overloading mo = new Method_Overloading();
+//        System.out.println(mo.calculate(1, 2));
+//        System.out.println(mo.calculate(5, 3));
+//        System.out.println(mo.calculate(1, 2, 3));
+//        System.out.println(mo.calculate(5, 3.5));
+//---------------------Inheritance------------------
+Inheritate_Child ic= new Inheritate_Child();
+ic.setPerson("Nusrat Hurain", 25);
+ic.setStudent(210012, 4);
+ic.displayStudent();
     }
 }
