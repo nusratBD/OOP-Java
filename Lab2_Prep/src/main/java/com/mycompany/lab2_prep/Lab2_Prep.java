@@ -1,7 +1,7 @@
 package com.mycompany.lab2_prep;
 
 public class Lab2_Prep {
-    
+
     public static void main(String[] args) {
         //----------------Constructor Overloading--------------
 //        Constructor_Overloading co1=new Constructor_Overloading();
@@ -24,12 +24,18 @@ public class Lab2_Prep {
 //        co4.display();
 //        System.out.println("----------------------");
 //----------------------Stack--------------------
-        Stack s = new Stack();
-        for (int i = 0; i < 12; i++) {
-            s.push(i);
-        }
-        s.display();
-        s.pop();
-        s.display();
+//        Stack s = new Stack();
+//        for (int i = 0; i < 12; i++) {
+//            s.push(i);
+//        }
+//        s.display();
+//        s.pop();
+//        s.display();
+//--------------------Method Overloading----------------
+        Method_Overloading mo = new Method_Overloading();
+        System.out.println(mo.calculate(1, 2));
+        System.out.println(mo.calculate(5, 3));
+        System.out.println(mo.calculate(1, 2, 3));
+        System.out.println(mo.calculate(5, 3.5));
     }
 }
