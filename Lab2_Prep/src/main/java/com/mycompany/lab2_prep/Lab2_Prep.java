@@ -43,10 +43,16 @@ public class Lab2_Prep {
 //ic.setStudent(210012, 4);
 //ic.displayStudent();
 //-------------------MultiLevel Inheritance----------
-MultiLevel_GrandChild mg = new MultiLevel_GrandChild();
-mg.setPerson("Nusrat", 25);
-mg.setStudent(101, 3.95);
-mg.setResearchTopic("Artificial Intillegence");
-mg.displayGraduate();
+//MultiLevel_GrandChild mg = new MultiLevel_GrandChild();
+//mg.setPerson("Nusrat", 25);
+//mg.setStudent(101, 3.95);
+//mg.setResearchTopic("Artificial Intillegence");
+//mg.displayGraduate();
+//-------------------Use of Super-------------------
+//Inheritance_Super_Child isc=new Inheritance_Super_Child("Nusrat",750000,"Software Depelopment");
+//isc.displayDetail();
+Inheritance_Super2 s2=new Inheritance_Super2("Nusrat", 750000);
+Inheritance_Super2_Child sc2=new Inheritance_Super2_Child(s2,"AI Department");
+sc2.worker_display();
     }
 }
