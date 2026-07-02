@@ -66,11 +66,23 @@ public class Lab2_Prep {
 //o=new Overriding_Child2();
 //o.makeSound();
 //--------------------Abstract Method--------------------
-Abs_Method_Child amc=new Abs_Method_Child("Red", 5);
-amc.showColor();
-amc.area();
-Abs_Method_Child2 amc2=new Abs_Method_Child2("Green", 2,4);
-amc2.showColor();
-amc2.area();
+//Abs_Method_Child amc=new Abs_Method_Child("Red", 5);
+//amc.showColor();
+//amc.area();
+//Abs_Method_Child2 amc2=new Abs_Method_Child2("Green", 2,4);
+//amc2.showColor();
+//amc2.area();
+//------------------Access Modifier-----------------
+Access ac=new Access();
+ac.setDetails("Nusrat", 100001, 50000);
+ac.deposit(1000);
+ac.displayDetail();
+Access_Child acc=new Access_Child();
+acc.setDetails("Kakoli", 100002, 60000);
+acc.displayDetail();
+acc.setInterestRate(5);
+acc.calculateInterest();
+acc.deposit(10000);
+acc.displayDetail();
     }
 }
