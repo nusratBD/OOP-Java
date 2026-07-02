@@ -38,9 +38,15 @@ public class Lab2_Prep {
 //        System.out.println(mo.calculate(1, 2, 3));
 //        System.out.println(mo.calculate(5, 3.5));
 //---------------------Inheritance------------------
-Inheritate_Child ic= new Inheritate_Child();
-ic.setPerson("Nusrat Hurain", 25);
-ic.setStudent(210012, 4);
-ic.displayStudent();
+//Inheritate_Child ic= new Inheritate_Child();
+//ic.setPerson("Nusrat Hurain", 25);
+//ic.setStudent(210012, 4);
+//ic.displayStudent();
+//-------------------MultiLevel Inheritance----------
+MultiLevel_GrandChild mg = new MultiLevel_GrandChild();
+mg.setPerson("Nusrat", 25);
+mg.setStudent(101, 3.95);
+mg.setResearchTopic("Artificial Intillegence");
+mg.displayGraduate();
     }
 }
