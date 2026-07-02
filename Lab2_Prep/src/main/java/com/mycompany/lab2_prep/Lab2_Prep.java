@@ -55,7 +55,7 @@ public class Lab2_Prep {
 //Inheritance_Super2_Child sc2=new Inheritance_Super2_Child(s2,"AI Department");
 //sc2.worker_display();
 //------------------Method Overridng-----------------
-Overriding o=new Overriding();
+//Overriding o=new Overriding();
 //Overriding_Child oc=new Overriding_Child();
 //Overriding_Child2 oc2=new Overriding_Child2();
 //o.makeSound();
@@ -65,5 +65,12 @@ Overriding o=new Overriding();
 //o.makeSound();
 //o=new Overriding_Child2();
 //o.makeSound();
+//--------------------Abstract Method--------------------
+Abs_Method_Child amc=new Abs_Method_Child("Red", 5);
+amc.showColor();
+amc.area();
+Abs_Method_Child2 amc2=new Abs_Method_Child2("Green", 2,4);
+amc2.showColor();
+amc2.area();
     }
 }
