@@ -132,7 +132,9 @@ public class GamePanel extends JPanel implements ActionListener {
         addPipe(true);
         addPipe(true);
     }
-    //Method of ActionListener interface
+    /*Method of ActionListener interface.
+    Will be triggered when timer.start() will
+    be called.*/
     @Override
     public void actionPerformed(ActionEvent e) {
         if (gameStarted && !gameOver) {
@@ -200,6 +202,7 @@ public class GamePanel extends JPanel implements ActionListener {
 
         // Draw Pipes (Modern Forest Gray/Green Borders)
         g.setColor(new Color(46, 139, 87));
+        //for each loop used instead of for loop
         for (Rectangle pipe : pipes) {
             g.fillRect(pipe.x, pipe.y, pipe.width, pipe.height);
             g.setColor(Color.DARK_GRAY);
