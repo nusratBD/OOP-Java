@@ -13,7 +13,7 @@ public class GamePanel extends JPanel{
     @Override
     protected void paintComponent(Graphics g){
     super.paintComponent(g);
-    g.setColor(Color.GREEN);
+    g.setColor(Color.RED);
     g.fillOval(100, 20, 50, 50);
     
     }

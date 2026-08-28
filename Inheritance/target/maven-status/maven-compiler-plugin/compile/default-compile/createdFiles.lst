@@ -1,5 +1,6 @@
 com\mycompany\inheritance\C_call2.class
 com\mycompany\inheritance\MultiLevel.class
+Date\Document.class
 com\mycompany\inheritance\B.class
 com\mycompany\inheritance\Super2.class
 com\mycompany\inheritance\Ship.class
@@ -12,8 +13,11 @@ com\mycompany\inheritance\Inheritance.class
 com\mycompany\inheritance\private_member2.class
 com\mycompany\inheritance\Box.class
 com\mycompany\inheritance\Overriding2.class
+Date\Book.class
 com\mycompany\inheritance\A.class
 com\mycompany\inheritance\BoxWeight.class
+Date\Main.class
+Date\Email.class
 com\mycompany\inheritance\BoxWeight2.class
 com\mycompany\inheritance\MultiLevel2.class
 com\mycompany\inheritance\private_member.class

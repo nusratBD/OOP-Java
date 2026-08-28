@@ -31,6 +31,8 @@ public class GamePanel2 extends JPanel implements KeyListener,
     
 g.fillOval(birdX, birdY, 60, 60);   // Face
 
+g.setColor(Color.black);
+g.fillRect(50, 30, 50, 30);
 g.setColor(Color.BLACK);
 g.fillOval(birdX+15, birdY+20, 8, 8);     // Left eye
 g.fillOval(birdX+37, birdY+20, 8, 8);     // Right eye
