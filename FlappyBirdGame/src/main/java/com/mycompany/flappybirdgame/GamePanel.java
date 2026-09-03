@@ -2,9 +2,9 @@ package com.mycompany.flappybirdgame;
 
 import javax.swing.JPanel;
 import javax.swing.Timer;
-import java.awt.Graphics;
 import java.awt.Color;
 import java.awt.Font;
+import java.awt.Graphics;
 import java.awt.Rectangle;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

@@ -1,17 +1,15 @@
-package com.mycompany.flappybirdgame2;
+package Practice1;
 
-import java.awt.Color;
 import javax.swing.JFrame;
 
-public class FlappyBirdGame2 {
-
-    public static void main(String[] args) {
+public class Main {
+    public static void main(String [] args){
         JFrame frame = new JFrame();
         Design design = new Design();
         frame.add(design);
         frame.setSize(400, 600);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLocationRelativeTo(null);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setResizable(false);
         frame.setVisible(true);
     }
