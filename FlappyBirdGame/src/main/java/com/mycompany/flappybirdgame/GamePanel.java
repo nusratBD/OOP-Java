@@ -54,7 +54,7 @@ public class GamePanel extends JPanel implements ActionListener {
             /*KeyAdapter()->Abstratct Class where there are
             several concrete methods to catch keyboard input */
             @Override
-            public void keyPressed(KeyEvent e) {
+           public void keyPressed(KeyEvent e) {
                 int code = e.getKeyCode();
 
                 if (gameOver && code == KeyEvent.VK_SPACE) {
@@ -85,7 +85,7 @@ public class GamePanel extends JPanel implements ActionListener {
                             break;
                         case KeyEvent.VK_LEFT:
                             // Diagonally Down-Right / Backward escape
-                            birdX -= MOVE_SPEED;
+                            birdX += MOVE_SPEED;
                             birdY += MOVE_SPEED / 2;
                             break;
                     }
@@ -93,7 +93,7 @@ public class GamePanel extends JPanel implements ActionListener {
             }
         });
 
-        timer = new Timer(16, this);
+        timer = new Timer(16,this);
         timer.start();
         /*to mention 2 pair of pipe at a time on the screen*/
         addPipe(true);//
@@ -238,5 +238,5 @@ public class GamePanel extends JPanel implements ActionListener {
 
         g.setColor(Color.DARK_GRAY);
         g.drawString("Score: " + score, 20, 40);
-    }
+    } 
 }
